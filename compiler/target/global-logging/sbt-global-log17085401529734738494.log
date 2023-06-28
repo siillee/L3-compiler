@@ -1,0 +1,22 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(72cc91da-b7ad-4ef1-bebd-1d2c95f1e799), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:197:15: private method HtoLSameValue in object CPSValueRepresenter is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def HtoLSameValue(a: Int): L.AtomL = L.AtomL(a)[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:13:5: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tree match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/test/l3/ExamplesTests.scala:37:21: method copyArrayToImmutableIndexedSeq in class LowPriorityImplicits2 is deprecated (since 2.13.0): Implicit conversions from Array to immutable.IndexedSeq are implemented by copying; Use the more efficient non-copying ArraySeq.unsafeWrapArray or an explicit toIndexedSeq call[0m
+[0m[[0m[33mwarn[0m] [0m[0m  val tests = Tests {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: test[0m
+[0m[[0m[31merror[0m] [0m[0mCancelled: test[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

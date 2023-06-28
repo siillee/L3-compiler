@@ -1,0 +1,45 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run ../examples/halt.l3, Some(48f318e7-f8c8-48f6-8d6d-b89330b7a2de), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:15:15: private method freshW in object CPSValueRepresenter is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def freshW = Symbol.fresh("w")[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:242:15: private method substitute in object CPSValueRepresenter is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def substitute(tree: L.Tree, s: Subst[Symbol]): L.Tree = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:8:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CL3TreeFormatter._ // Implicits required for CL3 tree printing[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:9:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CPSTreeFormatter._ // Implicits required for CPS tree printing[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:10:23: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CPSTreeChecker._   // Implicits required for CPS tree checking[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:39:15: private method treeChecker in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def treeChecker[T <: CPSTreeModule](implicit c: CPSTreeChecker[T]) =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:42:15: private method treePrinter in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def treePrinter[T](msg: String)(implicit f: Formatter[T]): T => T =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:49:15: private method seqPrinter in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def seqPrinter[T](msg: String): Seq[T] => Seq[T] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:19:5: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tree match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:220:5: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: LetC(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    tree match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSValueRepresenter.scala:243:40: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: AppC(_, _), AppF(_, _, _), If(_, _, _, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def substT(tree: L.Tree): L.Tree = tree match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                       ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m11 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mNonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Nonzero exit code returned from runner: 1[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Mar 31, 2023, 12:40:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

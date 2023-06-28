@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(dbe78cbe-3f43-486b-9611-468586f4cbd4), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	l3.SyntheticTests1[0m
+[0m[[0m[31merror[0m] [0m[0m	l3.SyntheticTests2[0m
+[0m[[0m[31merror[0m] [0m[0m	l3.ExamplesTests3[0m
+[0m[[0m[31merror[0m] [0m[0m	l3.SyntheticTests3[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 8 s, completed Apr 6, 2023, 9:00:00 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

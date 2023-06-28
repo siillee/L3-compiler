@@ -1,0 +1,3 @@
+(letrec ((ping (fun (n) (if (@< n 0) #u (begin (@byte-write 97) (pong (@- n 1))))))
+	 (pong (fun (n) (if (@< n 0) #u (begin (@byte-write 97) (ping (@- n 1)))))))
+	(ping 10))

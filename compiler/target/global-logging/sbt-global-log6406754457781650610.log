@@ -1,0 +1,7 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(f1186d2d-cbbc-416e-a093-aa2884481b37), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 8 s, completed Apr 30, 2023, 12:29:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

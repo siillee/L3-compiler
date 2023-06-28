@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b2f7cf4b-f421-4ea2-895a-9dbc341cb7a2), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSPrimitive.scala:14:11: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  private def initClosure(funName: L.Name, w: L.Name[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Apr 2, 2023, 9:35:06 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

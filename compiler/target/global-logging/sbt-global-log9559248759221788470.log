@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(5ab1d7f7-39b6-4aab-85a1-084b2c28ea9e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSOptimizer.scala:195:22: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0m  import L3Primitive._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                     ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSOptimizer.scala:106:11: local val funLimit in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val funLimit = fibonacci(i)[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSOptimizer.scala:107:11: local val cntLimit in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      val cntLimit = i[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSOptimizer.scala:109:11: local method sameLen in value $anonfun is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m      def sameLen[T,U](formalArgs: Seq[T], actualArgs: Seq[U]): Boolean =[0m
+[0m[[0m[33mwarn[0m] [0m[0m          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSOptimizer.scala:201:30: private method l3IntToLit in object CPSOptimizerHigh is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private[this] implicit def l3IntToLit(i: L3Int): Literal = IntLit(i)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/CPSOptimizer.scala:202:30: private method intToLit in object CPSOptimizerHigh is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private[this] implicit def intToLit(i: Int): Literal = IntLit(L3Int(i))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 8 s, completed Apr 20, 2023, 1:17:08 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

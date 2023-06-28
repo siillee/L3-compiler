@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector(-Xss32M, -Xms128M)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for utest.runner.Framework produced 8 initial tasks for 8 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.SyntheticTests1, sbt.ForkMain$SubclassFingerscan@76ccd017, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 38 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.ExamplesTests2, sbt.ForkMain$SubclassFingerscan@182decdb, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.SyntheticTests2, sbt.ForkMain$SubclassFingerscan@26f0a63f, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 38 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.ExamplesTests3, sbt.ForkMain$SubclassFingerscan@4361bd48, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.ExamplesTests4, sbt.ForkMain$SubclassFingerscan@53bd815b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.SyntheticTests3, sbt.ForkMain$SubclassFingerscan@2401f4c3, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 38 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.SyntheticTests4, sbt.ForkMain$SubclassFingerscan@7637f22, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 38 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(l3.ExamplesTests1, sbt.ForkMain$SubclassFingerscan@4926097b, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 4 events.[0m
+[0m[[0m[0minfo[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.SyntheticTests1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.ExamplesTests2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.SyntheticTests2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.ExamplesTests3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.ExamplesTests4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.SyntheticTests3[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.SyntheticTests4[0m
+[0m[[0m[0mdebug[0m] [0m[0m	l3.ExamplesTests1[0m

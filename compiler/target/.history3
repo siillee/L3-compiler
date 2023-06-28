@@ -1,0 +1,227 @@
+1677921785116:compile
+1677921803941:test
+1678018700269:test ../examples/halt.l3
+1678018723812:run ../examples/halt.l3
+1678018732550:run ../examples/life.l3
+1678018751528:run ../examples/lets.l3
+1678018763432:run ../examples/bignums.l3
+1678018766106:run ../examples/bignums.l3m
+1678018810208:run ../examples/hello.l3
+1678019049524:run ../examples/queens.l3
+1678019052323:run ../examples/queens.l3m
+1678019137224:run ../examples/hello.l3
+1678020259760:run ../examples/halt.l3
+1678020345833:run ../examples/fib.l3
+1678105214186:run ../examples/halt.l3
+1678109068350:run ../examples/quicksort.l3
+1678109503778:run ../examples/fib.l3
+1678109662292:run ../examples/quicksort.l3
+1678109941956:run ../examples/bignums.l3
+1678109971494:run ../examples/bignums.l3m
+1678110013322:run ../examples/pingpong.l3
+1678110065169:run ../examples/quicksort.l3
+1678110747676:run ../examples/hellofun.l3
+1678110770623:test
+1678110794483:run ../examples/quicksort.l3
+1678111213084:run ../examples/quicksort.l34
+1678111215388:run ../examples/quicksort.l3
+1678111281899:run ../examples/quicksort.l3m
+1678112046959:run ../examples/quicksort.l3
+1678112375248:run ../examples/queens.l3
+1678112377871:run ../examples/queens.l3m
+1678112390666:run ../examples/queens.l3
+1678112397751:run ../examples/quicksort.l3
+1678290604014:run ../examples/hello.l3
+1678290862194:run ../tests/expr-begin.l3
+1678291688166:run ../tests/cond.l3
+1678291696622:run ../tests/expr-cond.l3
+1678292291174:run ../tests/expr-letrecd.l3
+1678292293262:run ../tests/expr-letrec.l3
+1678292931406:run ../examples/quicksort.l3
+1678382985886:test
+1678469593492:compile
+1678469619702:test
+1678470312516:compile
+1678470314500:test
+1678470345798:run ../examples/pingpong.l3
+1678470486509:test
+1678470494580:run ../examples/pingpong.l3
+1678470545898:test
+1678470558996:run ../examples/pingpong.l3
+1678979564895:test
+1678984966163:compile
+1678985009586:test
+1678985081932:compile
+1678985083357:test
+1679249250774:1 | 1
+1679341049660:test
+1679422574685:run ../examples/bignum.l3
+1679422576845:run ../examples/bignum.l3m
+1679422584162:run ../examples/bignums.l3
+1679422586667:run ../examples/bignums.l3m
+1679423109054:test
+1679423308804:run ../examples/maze.l3
+1679423316331:run ../examples/maze.l3m
+1679423810178:run ../examples/queens.l3m
+1679423821553:run ../examples/unimaze.l3m
+1679423846672:run ../examples/pingpong.l3
+1679424897688:test
+1679425108727:last
+1679425159931:test
+1679503968992:run ../examples/bignums.l3m
+1679504124966:test
+1679508044410:packageSrc
+1679583985337:test
+1680259200294:run ../examples/halt.l3
+1680464104606:test
+1680530377002:run ../examples/halt.l3
+1680531046249:test
+1680533307695:run ../tests/stmt-defrec.l3
+1680534414560:run ../tests/expr-fun.l3
+1680544356525:tedst
+1680544357940:test
+1680545041191:run ../tests/expr-fun.l3
+1680600181840:test
+1680600616240:teest
+1680600617407:test
+1680602103993:run ../tests/expr-fun.l3
+1680602794787:test
+1680620447931:run ../tests/stmt-defrec.l3
+1680620878684:test
+1680620947343:run ../tests/stmt-defrec.l3
+1680621457669:test
+1680622645403:run ../tests/stmt-defrec.l3
+1680633490793:test
+1680633678208:run ../tests/stmt-defrec.l3
+1680634181152:test
+1680634605100:run ../tests/stmt-defrec.l3
+1680634866269:test
+1680634871679:run ../tests/stmt-defrec.l3
+1680635370633:test
+1680635384999:run ../tests/stmt-defrec.l3
+1680692745030:test
+1680692842504:tesdst
+1680692843617:test
+1680692986748:run ../tests/stmt-defrec.l3
+1680693272851:tesr
+1680693274414:test
+1680693625347:run ../tests/expr-fun.l3
+1680693863599:run ../examples/halt.l3
+1680693865720:run ../tests/expr-fun.l3
+1680694040043:test
+1680694277099:run ../tests/expr-fun.l3
+1680702670650:test
+1680702870951:run ../tests/expr-fun.l3
+1680771187550:test
+1680771907316:run ../tests/expr-fun.l3
+1680772222307:test
+1680772247442:run ../tests/expr-fun.l3
+1680772853832:test
+1680772862027:run ../tests/expr-fun.l3
+1680773506525:run ../tests/stmt-defrec.l3
+1680773710563:test
+1680773724199:run ../tests/stmt-defrec.l3
+1680774008089:test
+1680774293928:run ../tests/stmt-defrec.l3
+1680774676232:test
+1680794792441:run ../tests/stmt-defrec.l3
+1680795010473:test
+1680796087020:run ../tests/stmt-defrec.l3
+1680801242336:test
+1680801274643:run ../tests/stmt-defrec.l3
+1680801686815:test
+1680802252397:run ../tests/stmt-defrec.l3
+1680803208119:test
+1680803295961:run ../tests/expr-fun.l3
+1680804713359:test
+1680804905174:run ../tests/expr-fun.l3
+1680805876413:test
+1680805878588:run ../tests/expr-fun.l3
+1680806563631:test
+1680806716471:run ../tests/expr-fun.l3
+1680806908703:test
+1680857493194:run ../tests/expr-fun.l3
+1680858532713:[A
+1680858535188:run ../tests/expr-fun.l3
+1680858615540:test
+1680859394479:packageSrc
+1680859623565:test
+1681989420317:compile
+1682358586376:compilr
+1682358589386:compile
+1682358600095:test
+1682358674873:run ../tests/prim-add.l3
+1682358693273:run ../tests/expr-cond.l3
+1682358821234:run ../tests/prim-add.l3
+1682358828463:test
+1682358850451:run ../tests/prim-add.l3
+1682359417028:test
+1682359436536:run ../tests/expr-or].l3
+1682359439361:run ../tests/expr-or.l3
+1682359853029:test
+1682359907013:run ../tests/prim-intp.l3
+1682360080235:test
+1682360117505:run ../tests/expr-not.l3
+1682360178886:tedt
+1682360179836:test
+1682431545089:run ../tests/prim-add.l3
+1682434376008:test
+1682435789935:run ../tests/prim-add.l3
+1682435798343:run ../tests/prim-sub.l3
+1682435807155:run ../tests/prim-and.l3
+1682435816316:run ../tests/prim-block-alloc.l3
+1682435976590:run ../tests/prim-block-get-set.l3
+1682435984731:run ../tests/prim-block-length.l3
+1682435990584:run ../tests/prim-block-tag.l3
+1682436028729:run ../tests/prim-blockp.l3
+1682436047848:test
+1682436061524:run ../tests/prim-blockp.l3
+1682436077199:run ../tests/prim-char-to-int.l3
+1682436085935:run ../tests/prim-charp.l3
+1682436092634:run ../tests/prim-div.l3
+1682436098769:run ../tests/prim-eq.l3
+1682436198134:run ../tests/prim-mul.l3
+1682436202280:run ../tests/prim-le.l3
+1682436205049:run ../tests/prim-lt.l3
+1682436209402:run ../tests/prim-or.l3
+1682436214647:run ../tests/prim-unitp.l3
+1682436241510:run ../tests/prim-xor.l3
+1682436253294:run ../tests/stmt-def.l3
+1682436257530:run ../tests/stmt-defrec.l3
+1682436270846:run ../tests/stmt-def.l3
+1682436488120:test
+1682436554265:run ../tests/stmt-defrec.l3
+1682436817465:run ../examples/halt.l2
+1682436820396:run ../examples/halt.l3
+1682436830757:run ../examples/pingpong.l3
+1682436843330:run ../examples/hellofun.l3
+1682436851353:run ../examples/hello.l3
+1682436860341:run ../examples/haltsum.l3
+1682436867509:run ../examples/lets.l3
+1682436872615:run ../examples/life.l3
+1682436883934:run ../examples/life.l3m
+1682436961100:test
+1682437213589:run ../tests/prim-blockp.l3
+1682437220579:run ../tests/prim-intp.l3
+1682437242914:test
+1682437683947:run ../examples/maze.l3
+1682437689362:run ../examples/maze.l3m
+1682437809687:run ../tests/prim-intp.l3
+1682437829623:test
+1682437914221:run ../examples/maze.l3m
+1682438564605:test
+1682439208566:run ../examples/maze.l3m
+1682609075495:test
+1682609156575:run ../examples/maze.l3m
+1682609422314:test
+1682609437293:run ../examples/maze.l3m
+1682847885061:test
+1682847905184:run ../examples/maze.l3m
+1682847990195:run ../examples/maze.l3m7
+1682847993524:run ../examples/maze.l3m
+1682850574530:test
+1682940133179:run ../examples/maze.l3m
+1682940583481:test
+1682940592561:run ../examples/maze.l3m
+1682940651694:test
+1682940689297:packageSrc

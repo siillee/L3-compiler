@@ -1,0 +1,26 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run ../examples/maze.l3m, Some(81627e38-fc44-4676-83b1-90a555761dc1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/siillee/Advanced_Compiler_Construction_Project/compiler/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:8:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CL3TreeFormatter._ // Implicits required for CL3 tree printing[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:9:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CPSTreeFormatter._ // Implicits required for CPS tree printing[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:10:23: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CPSTreeChecker._   // Implicits required for CPS tree checking[0m
+[0m[[0m[33mwarn[0m] [0m[0m                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:43:15: private method treeChecker in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def treeChecker[T <: CPSTreeModule](implicit c: CPSTreeChecker[T]) =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:46:15: private method treePrinter in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def treePrinter[T](msg: String)(implicit f: Formatter[T]): T => T =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/Advanced_Compiler_Construction_Project/compiler/src/l3/Main.scala:53:15: private method seqPrinter in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def seqPrinter[T](msg: String): Seq[T] => Seq[T] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m6 warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 7 s, completed Apr 25, 2023, 6:13:35 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

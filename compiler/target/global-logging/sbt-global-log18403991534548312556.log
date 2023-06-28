@@ -1,0 +1,37 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(f9574306-48ba-4e6c-85a2-b8786eb3966e), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 21 Scala sources to /home/siillee/IdeaProjects/CL3toCPS/compiler/target/scala-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/Main.scala:8:25: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport CL3TreeFormatter._ // Implicits required for CL3 tree printing[0m
+[0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/Main.scala:49:15: private method seqPrinter in object Main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def seqPrinter[T](msg: String): Seq[T] => Seq[T] =[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/CPSInterpreter.scala:33:35: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: AtomL(_), AtomN(_)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def resolve(a: Atom): Value = a match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/CPSInterpreter.scala:102:45: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: BlockV(_, _), BooleanV(_), CharV(_), CntV(_, _, _), FunV(_, _, _, _), UnitV[0m
+[0m[[0m[33mwarn[0m] [0m[0m  protected def extractInt(v: Value): Int = v match { case IntV(i) => i.toInt }[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/CPSInterpreter.scala:106:46: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  protected def unwrapFunV(v: Value): FunV = v match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/CPSInterpreter.scala:118:5: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (p, args) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/CPSInterpreter.scala:147:5: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m    (p, args) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/siillee/IdeaProjects/CL3toCPS/compiler/src/l3/L3Parser.scala:16:20: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Failure()[0m
+[0m[[0m[33mwarn[0m] [0m[0m    fastparse.parse(programText, parser.program(_)) match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 14 s, completed Mar 4, 2023, 10:23:19 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

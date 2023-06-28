@@ -1,0 +1,1 @@
+(let ((a #t) (b #t)) (halt (if (and a b) 0 1)))
